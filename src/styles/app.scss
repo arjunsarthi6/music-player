@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+h1,
+h2,
+h3 {
+  color: rgb(56, 54, 54);
+}
+body {
+  font-family: 'Xanh Mono', monospace;
+}
+
+@import './player';
+@import './song';
+@import './library';
