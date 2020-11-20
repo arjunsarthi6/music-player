@@ -8,7 +8,9 @@
   height: 100%;
   overflow: scroll;
   background: white;
-
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
   h2 {
     padding: 2rem;
   }
@@ -59,5 +61,10 @@
 }
 
 .selected {
-  background:lightblue;
+  background: lightblue;
+}
+
+.active-library {
+  opacity: 1;
+  transform: translateX(0%);
 }
