@@ -10,7 +10,7 @@
   background: white;
   transform: translateX(-100%);
   transition: all 0.5s ease;
-  opacity: 0;
+  opacity:0;
   h2 {
     padding: 2rem;
   }
@@ -61,10 +61,10 @@
 }
 
 .selected {
-  background: lightblue;
+  background:lightblue;
 }
 
-.active-library {
+.active-library{
   opacity: 1;
-  transform: translateX(0%);
+  transform:translateX(0%);
 }
